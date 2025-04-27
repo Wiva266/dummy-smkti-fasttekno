@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <!-- Link Style -->
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/global-style.css">
+    <!-- Link Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Link Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+    <script>
+        if (window.location.pathname.endsWith("navbar.html")) {
+          window.location.href = "/index.html";
+        }
+    </script>
+    
+    <!-- ========== Navbar ========== -->
+    <header class="navbar">
+        <div class="nav-container scrolled">
+            <a href="index.html">
+                <img src="images/assets-imgs/stibal-ori.png" alt="smktibaliglobalsingaraja">
+            </a>
+            <nav class="desktop-nav">
+                <section>
+                    <ul class="nav-links">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="">Profile</a></li>
+                        <li><a href="">Academics</a></li>
+                        <li><a href="">Facilities</a></li>
+                        <li><a href="">Testimonial</a></li>
+                        <li><a href="">Location</a></li>
+                    </ul>
+                    <a class="nav-school-btn" target="_blank" href="https://ppdb.smktibaliglobalsingaraja.sch.id/daftar">
+                        <p>REGISTER</p>
+                    </a>
+                </section>
+            </nav>
+            <div class="burger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+    
+    <nav class="mobile-nav">
+        <ul class="mobile-nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="">Profile</a></li>
+            <li><a href="">Academics</a></li>
+            <li><a href="">Facilities</a></li>
+            <li><a href="">Testimonial</a></li>
+            <li><a href="">Location</a></li>
+        </ul>
+    </nav>
+
+    <!-- ========== Script ========== -->
+    <script src="script/navbar.js"></script>
+    <script src="script/manual-parallax.js"></script>
+</body>
+</html>
